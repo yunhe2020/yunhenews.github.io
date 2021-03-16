@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+	
+	<script src="jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet"  href="bootstrap.min.css">
+	<link rel="stylesheet"  href="css/main.css">
+	<script src="bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- navbar-brand存放logo -->
+				<a href="index.html" class="navbar-brand"></a>  
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="#">国内</a></li>
+				<li><a href="#">国际</a></li>
+				<li><a href="#">数读</a></li>
+				<li><a href="#">社会</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.html">登陆</a></li>
+				<li><a href="signup.html">注册</a></li>
+			</ul>
+		</div>
+	</div>  
+	<div class="container">
+		<div class="row">
+			<!-- 加row的原因是因为row有一个负margin,而栅格有一个正margin，所以正好抵消 -->
+			<div class="col-sm-2">
+				<div class="list-group side-bar">
+					<a href="#" class="list-group-item active">综合</a>
+					<a href="#" class="list-group-item">电影</a>
+					<a href="#" class="list-group-item">电视剧</a>
+					<a href="#" class="list-group-item">明星</a>
+					<a href="#" class="list-group-item">体育</a>
+					<a href="#" class="list-group-item">游戏</a>
+					<a href="#" class="list-group-item">军事</a>
+					<a href="#" class="list-group-item">财经</a>
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="news-list">
+					<!-- clearfix可以清除浮动 -->
+					<div class="news-list-item clearfix">
+						<div class="col-xs-5">
+							<img src="img/1.jpg" >
+						</div>
+						<div class="col-xs-7">
+							<a href="news.html" class="title"> 两年前他为教育事业和高圆圆分手，如今成这般，高圆圆：我有一句MMP如鲠在喉
+							</a>
+							<div class="info">
+								<span> <span class="avatar"><img src="img/logo.jpg" ></span>王花花</span>·
+								<span>25K评论</span>·
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-5">
+							<img src="img/2.jpg" >
+						</div>
+						<div class="col-xs-7">
+							<a href="#" class="title"> 厉害了，老白！铁路上水工惊艳亮相《中国诗词大会》
+							</a>
+							<div class="info">
+								<span> <span class="avatar"><img src="img/logo.jpg" ></span>王花花</span>·
+								<span>21K评论</span>·
+								<span>15分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-5">
+							<img src="img/3.jpg" >
+						</div>
+						<div class="col-xs-7">
+							<a href="#" class="title"> 上海那么多网红打卡地，都和这个“沪漂”外国人有关
+							</a>
+							<div class="info">
+								<span> <span class="avatar"><img src="img/logo.jpg" ></span>王花花</span>·
+								<span>25K评论</span>·
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-5">
+							<img src="img/4.jpg" >
+						</div>
+						<div class="col-xs-7">
+							<a href="#" class="title"> 央视春晚与刘德华“同台” 沈阳高新区走出多位“明星”
+							</a>
+							<div class="info">
+								<span> <span class="avatar"><img src="img/logo.jpg" ></span>王花花</span>·
+								<span>25K评论</span>·
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-5">
+							<img src="img/5.jpg" >
+						</div>
+						<div class="col-xs-7">
+							<a href="#" class="title"> 喜剧表演要注重人物的交流互动 从人物出发生成动作和行为
+							</a>
+							<div class="info">
+								<span> <span class="avatar"><img src="img/logo.jpg" ></span>王花花</span>·
+								<span>25K评论</span>·
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="search-bar">
+					<input type="search" class="form-control" placeholder="搜一下">
+				</div>
+				<div class="side-bar-card flag clearfix">
+					<div class="col-xs-5">
+						<img src="img/1-1.png" >
+					</div>
+					<div class="col-xs-7">
+						<div class="text-lg">有害信息举报专区</div>
+						<div>举报电话： 12377</div>
+					</div>
+				</div>
+				<div class="side-bar-card">
+					<div class="card-title">24小时热闻</div>
+					<div class="card-body">
+						<div class="list">
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+							<div class="item">
+								<div class="title">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vel</div>
+								<div class="desc">15k阅读·1k评论</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">© 2013-2020 京ICP备11008151号-8 京公网安备11010802014853</div>
+</body>
+</html>
